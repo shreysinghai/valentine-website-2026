@@ -21,21 +21,23 @@ const CONFIG = {
     // Questions and answers
     // Customize each question and its possible responses
     questions: {
-        q: {
-            text: "To the most cutu girl in the world"
-        },
         first: {
+            text: "I wanted to ask something to you, are you ready? 🙃",
+            yesBtn: "Yes",
+            noBtn: "No"
+        },
+        second: {
             text: "Do you like me? 🙈🙈🙈",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
         },
-        second: {
-            text: "How much do you love me? 🙃🙃🙃",                          // For the love meter
+        third: {
+            text: "How much do you love me? 🙃🤗🥰",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
-        third: {
+        fourth: {
             text: "Will you be my Valentine? 🌹", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
