@@ -22,22 +22,17 @@ const CONFIG = {
     // Customize each question and its possible responses
     questions: {
         first: {
-            text: "I wanted to ask something to you, are you ready? 🙃",
-            yesBtn: "Yes",
-            noBtn: "No"
-        },
-        second: {
             text: "Do you like me? 🙈🙈🙈",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
             noBtn: "No",                                               // Text for "No" button
             secretAnswer: "I don't like you, I love you! ❤️"           // Secret hover message
         },
-        third: {
+        second: {
             text: "How much do you love me? 🙃🤗🥰",                          // For the love meter
             startText: "This much!",                                   // Text before the percentage
             nextBtn: "Next ❤️"                                         // Text for the next button
         },
-        fourth: {
+        third: {
             text: "Will you be my Valentine? 🌹", // The big question!
             yesBtn: "Yes!",                                             // Text for "Yes" button
             noBtn: "No"                                                 // Text for "No" button
@@ -47,16 +42,16 @@ const CONFIG = {
     // Love meter messages
     // They show up depending on how far they slide the meter
     loveMessages: {
-        extreme: "WOOOOW You love me that much?? 🥰🚀💝",  // Shows when they go past 5000%
-        high: "To infinity and beyond! 🚀💝",              // Shows when they go past 1000%
-        normal: "And beyond! 🥰"                           // Shows when they go past 100%
+        extreme: "Arre control kitty 🙃😂🥰🤗",  // Shows when they go past 5000%
+        high: "Thike? 🙈🥰🤗",              // Shows when they go past 1000%
+        normal: "Bas itna? 🥺"                           // Shows when they go past 100%
     },
 
     // Messages that appear after they say "Yes!"
     celebration: {
-        title: "Yay! I'm the luckiest person in the world! 🎉💝💖💝💓",
-        message: "Now come get your gift, a big warm hug and a huge kiss! 🤗🤗🤗🤗🤗",
-        emojis: "🎁💖🤗💝💋❤️💕"  // These will bounce around
+        title: "Yay! My cutu said yessss! 🥰🤗❤️💝💖💓",
+        message: "Hug and kiss attack 🤗😘🤗😘🤗😘🤗😘🤗",
+        emojis: "🎁😘🤗💝❤️💕"  // These will bounce around
     },
 
     // Color scheme for the website
