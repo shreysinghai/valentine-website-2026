@@ -21,6 +21,9 @@ const CONFIG = {
     // Questions and answers
     // Customize each question and its possible responses
     questions: {
+        q: {
+            text: "To the most cutu girl in the world"
+        },
         first: {
             text: "Do you like me? 🙈🙈🙈",                                    // First interaction
             yesBtn: "Yes",                                             // Text for "Yes" button
